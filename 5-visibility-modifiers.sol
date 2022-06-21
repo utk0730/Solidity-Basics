@@ -15,13 +15,19 @@ pragma solidity ^0.8.0;
                     inherting the varible declaring contract
                 
     4. external -   external type is used only for functions
-                    Cannot be accessed internally, only externally
+                    external type is accessible from anywhere
+                    it can also be accessed from contract where it has been declared
  */
 contract VisibilityModifiers{
     string name; //default internal
     uint public age;
     address private sender; 
-    function FunctionExternal() external {
+
+    function acccessExternalFunction(string memory _candidateName) public view{
+       this.FunctionExternal(_candidateName);
+    }
+    function FunctionExternal(string calldata _candidateName) pure external returns(string memory) {
+        return _candidateName;
 
     }
 }
