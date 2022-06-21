@@ -2,14 +2,14 @@
 pragma solidity ^0.8.0;
 
 contract GlobalVariable{
-   address public owner = msg.sender;
-   bytes public msgData = msg.data;
-   uint public blockNumber = block.number;
-   bytes32 public blockHash = blockhash(2);
-   address public miner = block.coinbase;
-   uint public gasLimit = block.gaslimit;
-   uint public blockTime = block.timestamp;
-   uint public gasLeft = gasleft();
-   address public transactionOriginAddress = tx.origin;
+   address public owner = msg.sender; // address using blockchain
+   bytes public msgData = msg.data; // data send over blockchain
+   uint public blockNumber = block.number; // block number
+   bytes32 public blockHash = blockhash(2); // block hash
+   address public miner = block.coinbase; // miner address
+   uint public gasLimit = block.gaslimit; // gas limit
+   uint public blockTime = block.timestamp; // timestamp
+   uint public gasLeft = gasleft(); // gas left
+   address public transactionOriginAddress = tx.origin; // helpful in cases like -  contract is calling another contracy
 
 }
