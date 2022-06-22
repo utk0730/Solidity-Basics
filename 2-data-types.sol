@@ -5,7 +5,7 @@ contract DataTypes{
     // String 
     string name; // default value is empty string;
     string greet = "Hello";
-    string public nam2; // it is same as line 6, variables by default are public
+    string public nam2; // it is same as line 6, variables by default are internal
     string private name3;
 
 
