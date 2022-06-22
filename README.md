@@ -16,6 +16,7 @@
     14. Mapping
     15. Arrays
     16. Enums
+    17. Events
 
 ## These exercises have been done as per https://www.codiesalert.com/courses/free-solidity-cours
 
