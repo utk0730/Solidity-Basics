@@ -21,6 +21,7 @@
     19. Receiving and sending money from Contract address
     20. Fallback and Receive functions
     12. Inheritance
+    13. Function overriding in inheritance
 
 ## These exercises have been done as per https://www.codiesalert.com/courses/free-solidity-cours
 
