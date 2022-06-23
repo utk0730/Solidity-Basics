@@ -17,6 +17,7 @@
     15. Arrays
     16. Enums
     17. Events
+    18. Address vs address payable
 
 ## These exercises have been done as per https://www.codiesalert.com/courses/free-solidity-cours
 
