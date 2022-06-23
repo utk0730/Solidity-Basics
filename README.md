@@ -22,6 +22,7 @@
     20. Fallback and Receive functions
     21. Inheritance
     22. Function overriding in inheritance
+    23. Visibility modifier scope in inheritance
 
 ## These exercises have been done as per https://www.codiesalert.com/courses/free-solidity-cours
 
