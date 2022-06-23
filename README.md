@@ -18,6 +18,7 @@
     16. Enums
     17. Events
     18. Address vs address payable
+    19. Receiving and sending money from Contract address
 
 ## These exercises have been done as per https://www.codiesalert.com/courses/free-solidity-cours
 
