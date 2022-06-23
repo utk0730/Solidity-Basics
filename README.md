@@ -19,6 +19,7 @@
     17. Events
     18. Address vs address payable
     19. Receiving and sending money from Contract address
+    20. Fallback and Receive functions
 
 ## These exercises have been done as per https://www.codiesalert.com/courses/free-solidity-cours
 
