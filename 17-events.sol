@@ -1,6 +1,15 @@
 // SPDX-License-Identifier: MIT
 pragma solidity ^0.8.0;
 
+/**
+ How solidity events are useful ?
+    1.  return values from blockchain to calling applications
+    2.  subscribing events 
+    3.  events storage is cheaper
+        LOG - 375 GAS + 375(FOR INDEXED) 
+        SSTORE - 20,0000 GAS
+ */
+
 contract EventExample{
     address sender;
     string name;
