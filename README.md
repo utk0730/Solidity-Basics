@@ -24,6 +24,7 @@
     22. Function overriding in inheritance
     23. Visibility modifier scope in inheritance
     24. Interface
+    25. Library
 
 ## These exercises have been done as per https://www.codiesalert.com/courses/free-solidity-cours
 
