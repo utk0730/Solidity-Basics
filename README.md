@@ -25,6 +25,8 @@
     23. Visibility modifier scope in inheritance
     24. Interface
     25. Library
+    26. Using library deployed on blockchain
+    27. Create ERC20 token
 
 ## These exercises have been done as per https://www.codiesalert.com/courses/free-solidity-cours
 
